@@ -1,2 +1,81 @@
-terraform.tfvars
+# Local .terraform directories and files
+**/.terraform/*
+.terraform/
+.terraform.lock.hcl
+
+# State files
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Sensitive variable files
 *.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore any .tfbackend files
+*.tfbackend
+
+# Exclude all .terrahub directories and files
+.terrahub*
+
+# Ignore provider executable files
+terraform-provider-*
+
+# Ignore SSH/PEM files
+*.pem
+*.key
+id_rsa*
+id_dsa*
+*.ppk
+
+# Environment files and directories
+.env
+.envrc
+.direnv/
+
+# Ignore any potential secrets
+secrets.tfvars
+*secret*
+*password*
+*credential*
+*token*
+
+# Ignore backup files
+*.backup
+*.bak
+*~
+
+# Ignore logs
+*.log
+
+# Ignore any local generated documentation
+docs/
+
+# Ignore Mac OS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+*.sublime-*
