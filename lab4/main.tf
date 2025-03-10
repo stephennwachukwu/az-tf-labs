@@ -19,7 +19,7 @@ module "storage_account" {
  
   saname    = "sacal13391141"
   rgname    = "cal-1339-114"
-  location  = "westus"
+  location  = ""
 }
  
 #Create Storage Account
